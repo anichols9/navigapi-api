@@ -1,0 +1,149 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Navigapi API",
+    "description": "Mock API documentation for Navigapi — API Security for Logistics & Transporation.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.navigapi.io",
+      "description": "Production mock API server"
+    }
+  ],
+  "paths": {
+    "/what/": {
+      "get": {
+        "summary": "What",
+        "description": "Describes what Navigapi focuses on — securing the flow of freight data, quotes, and billing logic.",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "x-noauth": true
+      }
+    },
+    "/why/": {
+      "get": {
+        "summary": "Why",
+        "description": "Explains why API security is critical for logistics platforms and how Navigapi identifies logic risks.",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "x-noauth": true
+      }
+    },
+    "/who/": {
+      "get": {
+        "summary": "Who",
+        "description": "Introduces the founder and Navigapi’s background in logistics and API pentesting.",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "x-noauth": true
+      }
+    },
+    "/when/": {
+      "get": {
+        "summary": "When",
+        "description": "Outlines when API security matters most — during development, updates, or integrations.",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "x-noauth": true
+      }
+    },
+    "/where/": {
+      "get": {
+        "summary": "Where",
+        "description": "Defines Navigapi’s testing scope — remote, production-safe, and controlled environments.",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "x-noauth": true
+      }
+    },
+    "/how/": {
+      "get": {
+        "summary": "How",
+        "description": "Details Navigapi’s manual, precision-based testing approach for identifying logic flaws and vulnerabilities.",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "x-noauth": true
+      }
+    },
+    "/about_navigapi/": {
+      "get": {
+        "summary": "About Navigapi",
+        "description": "Explains Navigapi’s mission and its logistics-first approach to API security.",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "x-noauth": true
+      }
+    },
+    "/logistics_experience/": {
+      "get": {
+        "summary": "Logistics Experience",
+        "description": "Shows Navigapi’s background across parcel, LTL, FTL, and freight forwarding operations.",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "x-noauth": true
+      }
+    },
+    "/api_pentest/": {
+      "get": {
+        "summary": "API Pentest Services",
+        "description": "Outlines Navigapi’s different API security testing services including full pentest, recon, and mobile testing.",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "x-noauth": true
+      }
+    },
+    "/methodology/": {
+      "get": {
+        "summary": "Testing Methodology",
+        "description": "Explains Navigapi’s step-by-step approach — recon, instrumentation, analysis, prioritization, and remediation.",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "x-noauth": true
+      }
+    },
+    "/socials/": {
+      "get": {
+        "summary": "Social Links",
+        "description": "Provides Navigapi’s social and contact information.",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "x-noauth": true
+      }
+    }
+  },
+  "jsonSchemaDialect": "https://json-schema.org/draft/2020-12/schema"
+}
