@@ -1,0 +1,10 @@
+{
+  "title": "Where",
+  "summary": "We test remotely, across staging and production-safe environments.",
+  "details": "No intrusive scans, no DDoS-like automation — only controlled, authenticated requests that mirror real user behavior.",
+  "testing_scope": [
+    "Staging environments",
+    "Production-safe environments"
+  ],
+  "policy": "Controlled, authenticated, and ethical testing only."
+}
