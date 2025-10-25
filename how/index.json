@@ -1,0 +1,10 @@
+{
+  "title": "How",
+  "summary": "We test manually — one endpoint, one function at a time.",
+  "details": "No fuzzing, no noise, no brute forcing. Our focus is precision: reading the API, understanding its intent, and finding where logic diverges from design. Every request has purpose. Every response has signal.",
+  "approach": [
+    "Manual precision testing",
+    "Logic and behavior validation",
+    "Ethical and targeted methodology"
+  ]
+}
