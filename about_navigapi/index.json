@@ -1,0 +1,7 @@
+{
+  "title": "About Navigapi",
+  "summary": "Most pentesters don’t know a bill of lading from a rate confirmation. We do.",
+  "details": "Navigapi was built by someone who’s lived the logistics grind — booking loads, managing LTL exceptions, and integrating carriers through Project44. That firsthand experience means we understand how TMS, WMS, and carrier APIs actually work — and where they’re vulnerable.",
+  "mission": "We don’t just test endpoints. We secure the workflows that move freight — uncovering BOLA, BFLA, and business-logic flaws before attackers can exploit them.",
+  "value": "Navigapi bridges the gap between logistics operations and modern API security, helping carriers, shippers, and tech platforms protect the systems that keep supply chains running."
+}
