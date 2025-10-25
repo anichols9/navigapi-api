@@ -1,0 +1,59 @@
+{
+  "title": "Methodology",
+  "summary": "Manual, human-first API testing focused on logic, authorization, and business-process integrity across logistics workflows.",
+  "focus_areas": [
+    "BOLA (Broken Object Level Authorization)",
+    "BFLA (Broken Function Level Authorization)",
+    "BOPLA (Broken Parameter Level Authorization)",
+    "Business-logic abuse (quotes, BOL edits, cancellations, visibility)",
+    "Focused injection testing (SQLi, NoSQLi, command injection, template injection)",
+    "OWASP Top 10 coverage (API Top 10 + web app OWASP where applicable)",
+    "Authentication & session handling",
+    "Rate limiting & abuse patterns",
+    "Data leakage and sensitive data exposure"
+  ],
+  "how_we_test": [
+    {
+      "name": "Recon (human-first)",
+      "description": "Explore UI and available docs to build a mental map of flows (quotes, BOLs, booking, billing, tracking)."
+    },
+    {
+      "name": "Instrument",
+      "description": "Capture requests with Burp/Postman, log identifiers, cookies, tokens, headers, and session transitions."
+    },
+    {
+      "name": "Traverse endpoints",
+      "description": "Methodically call endpoints with valid contexts, then alter identifiers/parameters to observe differences in behavior."
+    },
+    {
+      "name": "Focused injection tests",
+      "description": "Targeted payloads for SQLi, NoSQLi, template and command injection against inputs that influence business logic or persistence."
+    },
+    {
+      "name": "Analyze responses",
+      "description": "Inspect status codes, response bodies, error messages, side-effects, and downstream behavior that indicate missing checks."
+    },
+    {
+      "name": "Prioritize by impact",
+      "description": "Rank findings by attacker ease and business impact (revenue, shipments, trust) for triage and remediation."
+    },
+    {
+      "name": "Report & remediate",
+      "description": "Deliver concise findings with repro steps, exact request/response examples, mapping to business flows, and practical fixes."
+    }
+  ],
+  "rules_of_engagement": {
+    "manual_first": "No noisy crawling or mass scanning; every test is purposeful and human-directed.",
+    "production_safe": "Avoid disruptive automation; coordinate tests that could impact production and enforce rate limits.",
+    "ethical_scoped": "Only test within agreed scope and authorization; share clear reproduction steps and remediation suggestions."
+  },
+  "deliverables": {
+    "findings": "Short, prioritized findings (P1–P4 style) mapped to business flows.",
+    "technical_artifacts": [
+      "Exact request/response examples",
+      "Copy-and-paste curl/Postman snippets",
+      "Proof-of-concept (video or step-by-step) where applicable"
+    ],
+    "remediation": "Actionable, prioritized remediation guidance engineers can implement."
+  }
+}
