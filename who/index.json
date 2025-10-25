@@ -1,0 +1,14 @@
+{
+  "title": "Who",
+  "summary": "Navigapi was founded by Austin Nichols, a logistics coordinator turned API pentester.",
+  "details": "Years in freight operations taught us how carrier data moves — and where it can break. That blend of logistics experience and security testing makes Navigapi uniquely fluent in how real platforms behave under pressure.",
+  "founder": {
+    "name": "Austin Nichols",
+    "background": "Logistics Coordinator → API Pentester",
+    "expertise": [
+      "API security testing",
+      "Freight operations",
+      "Logic-layer vulnerability analysis"
+    ]
+  }
+}
