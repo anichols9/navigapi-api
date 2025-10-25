@@ -1,0 +1,11 @@
+{
+  "title": "What",
+  "summary": "API security for logistics isn’t about scanning endpoints — it’s about protecting the flow of freight data, quotes, and billing logic that keep supply chains running.",
+  "focus": [
+    "Logic-layer flaws",
+    "Unauthorized rate edits",
+    "Shipment access leaks",
+    "Booking manipulation"
+  ],
+  "tagline": "We secure the APIs behind modern logistics."
+}
