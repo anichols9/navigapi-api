@@ -1,5 +1,5 @@
 {
-  "openapi": "3.1.0",
+  "openapi": "3.0.3",
   "info": {
     "title": "Navigapi API",
     "description": "Mock API documentation for Navigapi — API Security for Logistics & Transportation.",
@@ -20,8 +20,7 @@
           "200": {
             "description": "Successful response"
           }
-        },
-        "x-noauth": true
+        }
       }
     },
     "/why/": {
@@ -32,8 +31,7 @@
           "200": {
             "description": "Successful response"
           }
-        },
-        "x-noauth": true
+        }
       }
     },
     "/who/": {
@@ -44,8 +42,7 @@
           "200": {
             "description": "Successful response"
           }
-        },
-        "x-noauth": true
+        }
       }
     },
     "/when/": {
@@ -56,8 +53,7 @@
           "200": {
             "description": "Successful response"
           }
-        },
-        "x-noauth": true
+        }
       }
     },
     "/where/": {
@@ -68,8 +64,7 @@
           "200": {
             "description": "Successful response"
           }
-        },
-        "x-noauth": true
+        }
       }
     },
     "/how/": {
@@ -80,8 +75,7 @@
           "200": {
             "description": "Successful response"
           }
-        },
-        "x-noauth": true
+        }
       }
     },
     "/about_navigapi/": {
@@ -92,8 +86,7 @@
           "200": {
             "description": "Successful response"
           }
-        },
-        "x-noauth": true
+        }
       }
     },
     "/logistics_experience/": {
@@ -104,8 +97,7 @@
           "200": {
             "description": "Successful response"
           }
-        },
-        "x-noauth": true
+        }
       }
     },
     "/api_pentest/": {
@@ -116,8 +108,7 @@
           "200": {
             "description": "Successful response"
           }
-        },
-        "x-noauth": true
+        }
       }
     },
     "/methodology/": {
@@ -128,8 +119,7 @@
           "200": {
             "description": "Successful response"
           }
-        },
-        "x-noauth": true
+        }
       }
     },
     "/socials/": {
@@ -140,10 +130,8 @@
           "200": {
             "description": "Successful response"
           }
-        },
-        "x-noauth": true
+        }
       }
     }
   }
 }
-
