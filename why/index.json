@@ -1,0 +1,10 @@
+{
+  "title": "Why",
+  "summary": "Because every modern logistics operation — from TMS platforms to carrier portals — runs on APIs.",
+  "details": "When those APIs are exposed, even unintentionally, attackers can move money, shipments, and trust. Security scanners find patterns; we find behavior. That difference protects revenue, customers, and reputation.",
+  "principles": [
+    "APIs drive modern logistics operations.",
+    "Exposure enables manipulation of money, shipments, and trust.",
+    "Behavioral security over pattern-based detection."
+  ]
+}
