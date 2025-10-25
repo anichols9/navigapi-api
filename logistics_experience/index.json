@@ -1,0 +1,54 @@
+{
+  "title": "Logistics Industry Experience",
+  "small_parcel": {
+    "carriers_used": ["FedEx", "UPS"],
+    "experience": "Daily management of small parcel shipments, rate optimization, tracking, and claims handling within carrier portals and integrated TMS platforms."
+  },
+  "less_than_truckload": {
+    "carriers_used": [
+      "FedEx Freight",
+      "XPO",
+      "Saia",
+      "Estes",
+      "Old Dominion",
+      "AAA Cooper",
+      "CCFS",
+      "NPT"
+    ],
+    "systems_access": "Direct access to each carrier’s Transportation Management System (TMS) for quoting, tendering, tracking, and document retrieval.",
+    "primary_tms_platform": "LTL Select (integrated with Project44 for centralized booking and visibility across all onboarded carriers).",
+    "expertise": [
+      "Freight classification",
+      "NMFC handling",
+      "Carrier performance evaluation",
+      "Portal access for issue resolution and shipment troubleshooting"
+    ]
+  },
+  "full_truckload_brokerage": {
+    "brokers_3pls": [
+      "Schneider Logistics",
+      "C.H. Robinson",
+      "Uber Freight",
+      "AFS Logistics",
+      "WEL Company",
+      "Associated Logistics Group"
+    ],
+    "tms_platforms_used_daily": [
+      "Schneider FreightPower",
+      "C.H. Robinson Navisphere",
+      "Uber Freight",
+      "AFS Logistics"
+    ],
+    "expertise": [
+      "Load tendering",
+      "Rate negotiation",
+      "Carrier compliance verification",
+      "EDI/API integration with broker systems",
+      "Real-time shipment visibility"
+    ]
+  },
+  "containers_ocean_freight": {
+    "freight_forwarders": ["Expeditors", "CBC"],
+    "experience": "Containerized freight coordination, booking and tracking via forwarder portals, documentation handling (BOLs, packing lists, customs paperwork), and collaboration with ocean carriers for import/export shipments."
+  }
+}
