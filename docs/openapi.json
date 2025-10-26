@@ -148,7 +148,8 @@
             "properties": {
               "access_key": {
                 "type": "string",
-                "default": "5fa879df-7cc3-48a2-aa9a-0d8bacc7b070"
+                "default": "5fa879df-7cc3-48a2-aa9a-0d8bacc7b070",
+                "description": "Required public key for Navigapi’s Web3Forms integration. This value must be included exactly as shown."
               },
               "name": {
                 "type": "string",
@@ -160,8 +161,7 @@
               },
               "message": {
                 "type": "string",
-                "example": "Hello! I'm interested in learning more about Navigapi.",
-                "description": "Required public key for Navigapi’s Web3Forms integration. This value must be included exactly as shown."
+                "example": "Hello! I'm interested in learning more about Navigapi."
               }
             }
           }
