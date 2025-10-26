@@ -9,6 +9,10 @@
     {
       "url": "https://api.navigapi.io",
       "description": "Production mock API server"
+    },
+    {
+    "url": "https://api.web3forms.com",
+    "description": "Web3Forms server for contact form"
     }
   ],
   "paths": {
@@ -136,13 +140,7 @@
     "/submit": {
     "post": {
     "summary": "Contact Navigapi",
-    "description": "Submit a contact form to Navigapi via Web3Forms. Make sure to fill in your name, email, and message.",
-    "servers": [
-      {
-        "url": "https://api.web3forms.com",
-        "description": "Web3Forms endpoint for contact form submissions"
-      }
-    ],
+    "description": "Submit a contact form to Navigapi via Web3Forms. **Before executing this request, make sure to select `https://api.web3forms.com` from the 'Server' dropdown above.** This endpoint uses a third-party service and will not work with the default Navigapi server.",
     "requestBody": {
       "required": true,
       "content": {
