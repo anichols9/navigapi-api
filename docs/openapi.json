@@ -12,7 +12,7 @@
     }
   ],
   "paths": {
-    "/what/": {
+    "/what/we_do": {
       "get": {
         "summary": "What",
         "description": "Describes what Navigapi focuses on — securing the flow of freight data, quotes, and billing logic.",
