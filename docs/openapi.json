@@ -133,13 +133,13 @@
         }
       }
     },
-    "/contact/": {
+    "/submit": {
     "post": {
     "summary": "Contact Navigapi",
     "description": "Submit a contact form to Navigapi via Web3Forms. Make sure to fill in your name, email, and message.",
     "servers": [
       {
-        "url": "https://api.web3forms.com/submit",
+        "url": "https://api.web3forms.com",
         "description": "Web3Forms endpoint for contact form submissions"
       }
     ],
