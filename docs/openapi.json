@@ -132,7 +132,7 @@
           }
         }
       }
-    }
+    },
     "/contact/": {
     "post": {
     "summary": "Contact Navigapi",
