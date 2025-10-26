@@ -174,11 +174,12 @@
       }
     },
     "responses": {
-      "301": {
-        "description": "Redirects to email success page"
-       }
-     }
-   }
- },
+          "301": {
+            "description": "Redirects to email success page"
+          }
+        }
+      }
+    }
+  },
   "jsonSchemaDialect": "https://spec.openapis.org/oas/3.1/dialect/base"
- }
+}
