@@ -140,7 +140,7 @@
     "/submit": {
     "post": {
     "summary": "Contact Navigapi",
-    "description": "Submit a contact form to Navigapi via Web3Forms. **Before executing this request, make sure to select `https://api.web3forms.com` from the 'Server' dropdown above.** This endpoint uses a third-party service and will not work with the default Navigapi server.",
+    "description": "Submit a contact form to Navigapi via Web3Forms. **Before executing this request, make sure to select `https://api.web3forms.com` from the 'Server' dropdown above.** This endpoint uses a third-party service and will not work with the default Navigapi server.\n\n⚠️ **This endpoint will fail when used from Swagger UI.**\n\nThis is due to CORS restrictions and how the \"Try It Out\" feature makes browser-based requests.\n\n✅ To test it:\n- Use the cURL command shown below\n- Or copy this request into Postman\n\nThe endpoint works as expected outside the Swagger interface.",
     "requestBody": {
       "required": true,
       "content": {
