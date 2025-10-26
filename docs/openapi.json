@@ -133,6 +133,50 @@
         }
       }
     }
-  },
+    "/contact/": {
+    "post": {
+    "summary": "Contact Navigapi",
+    "description": "Submit a contact form to Navigapi via Web3Forms. Make sure to fill in your name, email, and message.",
+    "tags": ["Contact"],
+    "requestBody": {
+      "required": true,
+      "content": {
+        "application/x-www-form-urlencoded": {
+          "schema": {
+            "type": "object",
+            "required": ["access_key", "name", "email", "message"],
+            "properties": {
+              "access_key": {
+                "type": "string",
+                "example": "5fa879df-7cc3-48a2-aa9a-0d8bacc7b070"
+              },
+              "name": {
+                "type": "string",
+                "example": "John Doe"
+              },
+              "email": {
+                "type": "string",
+                "example": "johndoe@example.com"
+              },
+              "message": {
+                "type": "string",
+                "example": "Hello! I'm interested in learning more about Navigapi."
+              }
+            }
+          }
+        }
+      }
+    },
+    "responses": {
+      "301": {
+        "description": "Redirects to email success page"
+      },
+      "400": {
+        "description": "Missing or invalid fields"
+       }
+     }
+   }
+ }
+},
   "jsonSchemaDialect": "https://spec.openapis.org/oas/3.1/dialect/base"
 }
