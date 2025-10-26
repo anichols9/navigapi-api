@@ -137,7 +137,12 @@
     "post": {
     "summary": "Contact Navigapi",
     "description": "Submit a contact form to Navigapi via Web3Forms. Make sure to fill in your name, email, and message.",
-    "tags": ["Contact"],
+    "servers": [
+      {
+        "url": "https://api.web3forms.com/submit",
+        "description": "Web3Forms endpoint for contact form submissions"
+      }
+    ],
     "requestBody": {
       "required": true,
       "content": {
@@ -171,13 +176,9 @@
     "responses": {
       "301": {
         "description": "Redirects to email success page"
-      },
-      "400": {
-        "description": "Missing or invalid fields"
        }
      }
    }
- }
 },
   "jsonSchemaDialect": "https://spec.openapis.org/oas/3.1/dialect/base"
 }
