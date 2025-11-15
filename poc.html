@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Lime WebView Injection Test</h1>
+<script>
+document.body.innerHTML += "<p>WebView injection successful.</p>";
+
+if (window.blink) {
+    blink.showToast("Owned Lime WebView");
+    // blink.logOut();   // optional, but powerful
+}
+</script>
+</body>
+</html>
